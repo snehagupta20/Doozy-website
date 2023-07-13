@@ -1,0 +1,180 @@
+body{
+    background-color: blanchedalmond;
+
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+.mt{
+    margin-top: 250px;
+    font-size: 80px;
+    color: #F8F2ED;
+}
+.mt1{
+    margin-bottom: 300px;
+    height: 48px;
+    width: 150px;
+    color: #292929;
+    background-color: blanchedalmond;
+}
+/* .text-white{
+    color: #292929;
+} */
+
+.mt2{
+    margin-top: 50px ;
+    margin-left: 120px;
+    margin-right: 120px;
+
+
+      
+}
+.mt3{
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.mt4{
+    background: -webkit-linear-gradient(rgb(188, 12, 241), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+
+}
+
+.mb4{
+    margin-bottom: 100px;
+}
+
+.mt5{
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+
+#steps{
+
+
+
+    background-color: blanchedalmond;
+    margin-top: 100px;
+}
+
+.mt6{
+    margin-bottom: 110px;
+    
+}
+
+.mt7{
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+     height: 100%;
+     width: 70%;
+
+     margin-right: 110px; 
+     margin-left: 120px; 
+     margin-bottom: 60px;
+} 
+
+
+.album{
+    margin-bottom: 10px;
+    height: 470px;
+}
+
+
+
+.breeding{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+
+#breedingsec, .breedingcon{
+
+
+    background: #f857a6;  
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6); 
+    background: linear-gradient(to right, #ff5858, #f857a6);
+    width: 1480px;
+    height: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+
+}
+.breedimg{
+    height: 45%;
+    width: 25%;
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+.img1{
+    margin-left: 35px;
+}
+.img3{
+    margin-right: 35px;
+}
+
+
+
+.breedimg:hover {
+    transition: transform .5s ease;
+    transform: scale(1.5);
+}
+  
+footer{
+    /* background-color: black; */
+    margin-top: 200px;
+    margin-bottom: 60px;
+    /* color: white; */
+    
+}
+/* footer li{
+    color: white;
+    
+} */
+
+/* .nav-item1{
+    text-decoration: none;
+    color: white;
+} */
